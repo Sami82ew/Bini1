@@ -1,0 +1,102 @@
+/* ===== About Section ===== */
+.about {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #0056b3;
+  margin-bottom: 30px;
+}
+
+/* ===== About Content ===== */
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Side image */
+.bnn {
+  float: right;
+  margin-left: 9px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  object-fit: cover;
+  border: 3px solid #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Biography Text */
+.bio {
+  flex: 1;
+  font-size: 17px;
+  color: #444;
+  text-align: justify;
+}
+
+.bio p {
+  margin-bottom: 18px;
+}
+
+.bio strong {
+  color: #0056b3;
+}
+
+/* Contact buttons section */
+.contact-buttons1 {
+  text-align: center;
+  margin: 20px 0;
+  background-image: url("images (8).jpg");
+  backdrop-filter: blur(5px) brightness(0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+.hobby-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+  }
+
+  .bio {
+    text-align: left;
+  }
+
+  .bnn {
+    float: none;
+    margin: 0 auto 20px;
+  }
+}

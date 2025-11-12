@@ -1,0 +1,165 @@
+/* ===== Contact Section ===== */
+.contact {
+  margin: 10px auto;
+  padding: 20px 30px;
+  min-height: 100vh;
+  background-color: #0077B5;
+  border-radius: 30px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.753);
+  background-position: 30px 30px;
+  background-size: 100px 100px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+/* Contact buttons */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: #4a6fa5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  min-width: 160px;
+}
+
+.btn:hover {
+  background-color: #3a5980;
+}
+
+/* Specific button styles */
+.btn.whatsapp {
+  background-color: #25D366;
+}
+
+.btn.whatsapp:hover {
+  background-color: #1DA851;
+}
+
+.btn.telegram {
+  background-color: #0088cc;
+}
+
+.btn.telegram:hover {
+  background-color: #0077b3;
+}
+
+.btn.email {
+  background-color: #D44638;
+}
+
+.btn.email:hover {
+  background-color: #B03629;
+}
+
+.btn.linkedin {
+  background-color: #0077B5;
+}
+
+.btn.linkedin:hover {
+  background-color: #00669C;
+}
+
+.btn.github {
+  background-color: #333;
+}
+
+.btn.github:hover {
+  background-color: #222;
+}
+
+.btn-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* Social links */
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  color: #4a6fa5;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.social-icon:hover {
+  background-color: #4a6fa5;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.social-icon.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icon.twitter:hover {
+  background-color: #1da1f2;
+}
+
+.social-icon.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-icon.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.social-icon.github:hover {
+  background-color: #333;
+}
+
+/* Gender options */
+.gender-options {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Contact form */
+.contact-form {
+  padding: 20px 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .contact-buttons {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .contact-form {
+    padding: 20px 20px;
+  }
+  
+  .gender-options {
+    padding: 3px;
+  }
+}

@@ -1,0 +1,90 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  background-image: url("../bini/pdf/images/images\ \(11\).jpg"); /* path to your image */
+  background-size: cover;       /* stretch to fill the screen */
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat; /* don’t repeat */
+  height: 100vh;                /* full screen height */
+  margin: 0;                    /* remove default margin */
+  font-family: Arial, sans-serif;
+  color: white;   
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(120, 220, 210, 0.15);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+  color: yellow;
+  border-bottom: 2px solid yellow;
+  transform: scale(1.1);
+}
+
+/* ===== Button Style ===== */
+.btn {
+  display: inline-block;
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #003f80;
+  transform: translateY(-3px);
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 6px 10px;
+  }
+}
